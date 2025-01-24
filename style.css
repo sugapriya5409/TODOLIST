@@ -1,0 +1,99 @@
+body{
+    background: rgb(53, 7, 96);
+    padding: 0;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border:2px solid white;
+    height: auto;
+    width: auto;
+    min-width: 500px;
+    max-width: 800px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    
+   
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+#taskbox{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(218, 208, 208);
+    border: none;
+    width: 250px;
+    
+   
+}
+#taskbox::placeholder{
+    align-items: center;
+    color: black;
+   
+    
+}
+#taskbox:focus{
+    outline: none;
+}
+
+#addbtn{
+    border-radius: 20px;
+    padding: 15px;
+    width: 100px;
+    margin-left: -35px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    
+}
+ul{
+    list-style-type: circle;
+    
+}
+
+
+
+#donebtn{
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 35px;
+    background-color: green;
+    border: none;
+    color: white;
+   
+}
+#editbtn{
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+#removebtn{
+    
+  
+    margin-left:15px;
+   background: transparent;
+    border: none;
+    color: black;
+}
